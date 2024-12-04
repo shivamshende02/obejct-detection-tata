@@ -1,0 +1,15 @@
+
+
+path: ../datasets/coco128 # dataset root dir
+train: images/train2017 # train images (relative to 'path') 128 images
+val: images/val # val images (relative to 'path') 128 images
+#test: images/train2017
+
+nc: 5  # Number of classes
+names:
+  0: Hand 
+  1: Head
+  2: Person
+  3: Phone
+  4: Railing
+
