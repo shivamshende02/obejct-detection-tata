@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Hand', 'Head', 'Person', 'Phone', 'Railing']
+
+roboflow:
+  workspace: dataset-ucxfc
+  project: railingdataset-iz0zz
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dataset-ucxfc/railingdataset-iz0zz/dataset/2
